@@ -51,6 +51,7 @@ function App() {
             volume={coin.market_cap}
             image={coin.image}
             priceChange={coin.price_change_percentage_24h}
+            market_cap_rank={coin.market_cap_rank}
           />
         );
       })}

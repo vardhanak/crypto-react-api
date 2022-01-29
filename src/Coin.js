@@ -8,7 +8,8 @@ const Coin = ({
   marketcap,
   volume,
   image,
-  priceChange
+  priceChange,
+  market_cap_rank
 }) => {
   return (
     <div className='coin-container'>
@@ -31,6 +32,7 @@ const Coin = ({
           <p className='coin-marketcap'>
             Mkt Cap: ${marketcap.toLocaleString()}
           </p>
+          <p className="market_cap_rank">{market_cap_rank}</p>
         </div>
       </div>
     </div>
